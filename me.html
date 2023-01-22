@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email with node</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body >
+
+   <div class="container">
+                
+            <div class="contact">
+                <SPAN>SEND FEEDBACK.....</SPAN>
+                    <form action="send"  method="get">
+                    <input type="email" name="email1" id="email" placeholder="Type Email-id" required class="input"><br>
+                   <!-- <input type="email" name="email2" id="email2" placeholder="Type Email-id" required class="input"><br>-->
+                
+                     <input type="text" name="subject" placeholder="Type Subject here... problem/appreciation/something else" required class="input"><br>
+                    <textarea name="message" id="message" cols="60" rows="10" class="input" placeholder="Type Message here.."></textarea><br>
+                    <input type="submit" value="Send" name="send"  onClick="confirm()" class="btn"></form>
+        
+  </div>
+
+            </div>
+            <script src="script.js"></script>
+</body>
+</html>
